@@ -106,6 +106,9 @@ button.btn.btn-secondry.btn-signin:hover {
                     .modal-body {
                         background-color: #f7f7ed;
                     }
+                    a.text-primary {
+                        cursor: pointer;
+                    }
                  /* sign in form end */
 
          /* categories  */
