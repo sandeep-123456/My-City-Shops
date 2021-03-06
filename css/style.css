@@ -323,12 +323,20 @@ i.font-icon {
         border-bottom: 1px solid;
         margin: 20px 0px;
     }
+    .help p {
+        font-size: x-large;
+    }
     .mail {
         border-bottom: 1px solid;
         margin: 20px 0px;
     }
     .follow-us {
-        border-bottom: 1px solid;
         margin: 20px 0px;
+    }
+    i.font-icon {
+        font-size: 50px;
+    }
+    .follow-us  h3 {
+        font-size: 2.75rem;
     }
  }
