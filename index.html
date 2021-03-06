@@ -11,10 +11,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- fonts -->
+    <!-- fonts logo -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <!-- fonts for all -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -58,17 +60,12 @@
             width: extend-to-zoom;
             zoom:1.0;
         }
-
-
     </style>
 
     <title>My City Shops</title>
 </head>
 
-<body>
-
-    <div id ="header"> <!--Header tag start--> 
-
+<body id="body-bg">
 
     <!-- navigation -->
     <div class="navigation">
@@ -85,7 +82,7 @@
     <!-- logo-search-admin -->
     <div class="logo-search-admin">
         <div class="logo">
-            <img src="images/logo.png">
+            <h2>MC Shops</h2>
         </div>
         <div class="search">
             <form action="">
@@ -198,36 +195,6 @@
             </div>
             <!-- modal end -->
         </div>
-        <!-- hamburger -->
-        <nav id="Hamburger">
-            <!-- Collapse button -->
-            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="hamburger-color"><i
-                        class="fas fa-bars fa-1x"></i></span></button>
-
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-
-                <!-- Links -->
-                <!-- <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                </ul> -->
-                <!-- Links -->
-
-            </div>
-            <!-- Collapsible content -->
-
-        </nav>
-        <!-- hamburger end-->
     </div>
     <!-- logo-search-admin end -->
 
@@ -560,10 +527,6 @@
     <script>
 
         $(document).ready(function () {
-
-            // Hamburger
-            $("#Humburger")
-
 
             // sign up start
             $.validator.addMethod("StrongPassword", function (value) {
