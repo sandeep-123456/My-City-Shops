@@ -96,7 +96,7 @@ button.btn.btn-secondry.btn-signin:hover {
                     margin-bottom: 5px;
                 }
                 button.btn.btn-primary {
-                    width: 400px;
+                    width: -webkit-fill-available;
                 }
                 form#form {
                     padding: 30px;
@@ -110,6 +110,11 @@ button.btn.btn-secondry.btn-signin:hover {
                         cursor: pointer;
                     }
                  /* sign in form end */
+
+                    /* hamburger */
+                   #Hamburger{
+                        display: none;
+                    }
 
          /* categories  */
 .categories {
@@ -258,6 +263,15 @@ i.font-icon {
   /* media query for mobile */
   @media only screen and (max-width: 600px)
  {
+      /* hamburger */
+    #Hamburger {
+        display: block !important;
+    }
+    span.hamburger-color {
+        color: #feffc8;
+        font-size: xx-large
+    }
+    /* hamburger end*/
     body {
         background-color: #efebeb !important;
     }
@@ -266,9 +280,16 @@ i.font-icon {
         display: none;
     }
     /* logo */
+    .logo {
+        padding-left: 0px;
+    }
     .logo h2 {
         font-size: 25px;
     }
+    .admin {
+        display: none;
+    }
+
     #categories .btn-group button {
         margin: 7px;
     }
