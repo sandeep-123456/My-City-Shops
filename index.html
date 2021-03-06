@@ -3,8 +3,9 @@
 
 <head>
     <!-- Required meta tags -->
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--css link  -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
@@ -27,12 +28,46 @@
         .highlight {
             border: 2px red ridge;
         }
+
+        #header{
+            min-height: 100px;
+        }
+
+        #menu{
+            min-height: 10px;
+        }
+
+        #body{
+            min-height: 400px;
+            margin-top: 3%;
+        }
+
+        #footer{
+            min-height: 100px;
+            margin-top: 3%;
+        }
+
+        
+
+        @viewport{
+            zoom: 1.0;
+            width: extend-to-zoom;
+        }
+
+        @-ms-viewport{
+            width: extend-to-zoom;
+            zoom:1.0;
+        }
+
+
     </style>
 
     <title>My City Shops</title>
 </head>
 
 <body>
+
+    <div id ="header"> <!--Header tag start--> 
 
 
     <!-- navigation -->
@@ -196,8 +231,10 @@
     </div>
     <!-- logo-search-admin end -->
 
+</div><!--Header tag end-->
 
 
+<div id= "menu"> <!-- Menu tag start-->
 
     <!-- categories -->
     <div class="categories" id="categories">
@@ -224,7 +261,10 @@
         </div>
     </div>
     <!-- categories end-->
+</div> <!-- menu tag end -->
 
+
+<div id= "body"><!--Body tag start-->
 
 
     <!-- carousel -->
@@ -257,8 +297,6 @@
         </div>
     </div>
     <!-- carousel end-->
-
-
 
 
     <!-- popular categories -->
@@ -474,9 +512,10 @@
     </div>
     <!-- popular categories end-->
 
+</div><!--Body tag end-->
 
 
-
+<div id="footer"><!--Footer tag start-->
     <!-- footer -->
     <div class="footer-cont col-lg-12">
         <div class="help">
@@ -500,6 +539,8 @@
     </div>
 
     <!-- footer end-->
+</div><!--footer tag end-->
+
 
 
 
