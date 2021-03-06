@@ -2,13 +2,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-
+#body-bg {
+    background-color: #eae8e8;
+}
 
           /* navigation */
 .navigation {
-    background-color: #13803f;
+    background-color: #afafaf;
     height: 41px;
 }          
 .navigation ul {
@@ -23,20 +26,22 @@
     padding-right: 20px;
 }
 li.text-info a{
-    color: #fff;
+    color: #636d0c
 }
          /* logo-search-admin */
 .logo-search-admin {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0f542b;
+    background-color: #51566d;
 }
 .logo {
     padding-left:  40px;
 }
-.logo img {
-    width: 100px;
+.logo h2 {
+    color: #ffc107;
+    font-family: 'Chewy', cursive !important;
+    font-size: xxx-large;
 }
 
 
@@ -81,9 +86,6 @@ button.btn.btn-secondry.btn-signin:hover {
 
 
                  /* sign in form */
-                 #sign-in-body {
-                    overflow: hidden;
-                }
                  .sign-in-form {
                     display: flex;
                     flex-direction: column;
@@ -111,10 +113,6 @@ button.btn.btn-secondry.btn-signin:hover {
                     }
                  /* sign in form end */
 
-                    /* hamburger */
-                   #Hamburger{
-                        display: none;
-                    }
 
          /* categories  */
 .categories {
@@ -245,7 +243,7 @@ i.font-icon {
   }
 
   .flip-card-back {
-    background-color: #24a946;
+    background-color: #51566d;
     color: white;
     transform: rotateY(180deg);
   }
@@ -263,15 +261,6 @@ i.font-icon {
   /* media query for mobile */
   @media only screen and (max-width: 600px)
  {
-      /* hamburger */
-    #Hamburger {
-        display: block !important;
-    }
-    span.hamburger-color {
-        color: #feffc8;
-        font-size: xx-large
-    }
-    /* hamburger end*/
     body {
         background-color: #efebeb !important;
     }
@@ -286,15 +275,17 @@ i.font-icon {
     .logo h2 {
         font-size: 25px;
     }
-    .admin {
-        display: none;
+    .search button {
+        display: block;
     }
-
     #categories .btn-group button {
         margin: 7px;
     }
     .btn-group, .btn-group-vertical {
         display: unset !important;
+    }
+    .admin {
+        padding-right: unset;
     }
 
     /* carasoul */
