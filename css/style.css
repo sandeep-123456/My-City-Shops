@@ -263,13 +263,11 @@ form.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fbfbfb;
+    background-color: rgb(255 255 255);
     height: 500px;
     justify-content: center;
     border-radius: 20px;
-    justify-content: center;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px -1px lightgrey;
+    box-shadow: black 2px 3px 18px -8px;
 
 }
 input.same-area {
